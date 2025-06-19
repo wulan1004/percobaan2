@@ -1,0 +1,32 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFB8E0; /* Warna background untuk keseluruhan halaman */
+        }
+        .header, .footer {
+            background-color: #BE5985; /* Warna gelap untuk header dan footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+        .nav {
+            background-color: #EC7FA9; /* Warna sedikit lebih terang untuk navbar */
+            padding: 10px 0;
+            text-align: center;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            font-size: 16px;
+        }
+        .nav a:hover {
+            background-color: #FFB8E0; /* Warna saat hover link */
+        }
+        .content {
+            margin: 20px;
+            padding: 20px;
+            background-color: #FFEDFA; /* Warna background untuk konten */
+            border-radius: 8px;
+        }
